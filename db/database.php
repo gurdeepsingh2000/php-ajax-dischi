@@ -46,9 +46,8 @@ $disks = [
     [
         'title' => 'And Justice for All',
         'author' => 'Metallica',
-        'year' => 1988
+        'year' => 1988,
         'poster'=> 'https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg',
-        'genre' => 'Metal',
     ]
 ];
 

@@ -1,0 +1,64 @@
+body{
+    background-color: #1E2D3B;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #2E3A46;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.container-logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.container-logo img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.disks-container{
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-disk{
+    width: calc(100% / 5 - 15px);
+    border: 1px solid black;
+    margin: 15px;
+    height:auto; 
+}
+
+.card-inner{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.card-inner img{
+    width: 70%;
+}
+
+.inner-txt{
+    font-size:20px;
+    font-weight:bold;
+    color: white;
+}
+
+.inner-subtxt{
+    font-size:16px;
+    color:grey;
+}
