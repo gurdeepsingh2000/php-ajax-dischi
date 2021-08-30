@@ -29,7 +29,7 @@ $disks = [
         'title' => 'Brave new World',
         'author' => 'Iron Maiden',
         'year' => 2000,
-        'poster' => 'https://i.ebayimg.com/images/g/1GwAAOSwFytaKr7l/s-l300.jpg'
+        'poster' => 'https://i.ebayimg.com/images/g/1GwAAOSwFytaKr7l/s-l300.jpg',
     ],
     [
         'title' => 'One more car, one more rider',
@@ -41,7 +41,7 @@ $disks = [
         'title' => 'Made in Japan',
         'author' => 'Deep Purple',
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51rggtPgmRL.jpg',
-        'year' => 1972
+        'year' => 1972,
     ],
     [
         'title' => 'And Justice for All',

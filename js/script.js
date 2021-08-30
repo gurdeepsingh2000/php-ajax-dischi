@@ -1,7 +1,7 @@
 Vue.config.devtools = true;
 
 
-const app = Vue(    
+new Vue(    
     {
     el: '#app',
     data: {
@@ -9,7 +9,7 @@ const app = Vue(
     },
 
         created() {      
-            axios.get("http://localhost:8888/php-dischi/api/ApiDischi.php")
+            axios.get('http://localhost:8888/php-dischi/api/ApiDischi.php')
                 .then((result) => {
                     this.albums = result.data;
             })   
