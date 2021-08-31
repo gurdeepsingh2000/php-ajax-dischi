@@ -19,12 +19,16 @@
             <div class="container-logo">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png" alt="spotify-logo">
             </div>
+            <select @click='genreChoose()' v-model='selectedGenre'>
+                <option @click='genreChoose' >All</option>
+                <option v-for='genre in Genres'>{{genre}}</option>
+            </select>
         </header>
 
         <main>
             <section class = 'disks-container'>
               
-                <div v-for = 'disk in albums' class="card-disk">
+                <div v-for = 'disk in filteredAlbum' class="card-disk">
                     <div class="card-inner">
                         <img :src= 'disk.poster'>
                          <div class='inner-txt'>{{disk.title}}</div>
