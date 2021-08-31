@@ -28,7 +28,7 @@ new Vue(
             this.Genres = arrayGen
         },
         genreChoose(){
-            if(this.selectedGenre === 'All'){
+            if(this.selectedGenre === 'All' || this.selectedGenre === ''){
                 axios.get('http://localhost:8888/php-dischi/api/ApiDischi.php')
                 .then((result) => {
                 this.filteredAlbum = result.data;
